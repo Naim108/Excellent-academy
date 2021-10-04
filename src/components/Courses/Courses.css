@@ -1,0 +1,18 @@
+.card-container{
+    width: 400px;
+    height: 450px;
+    padding: 2px;
+    
+}
+.course-price{
+    color: #F68C20;
+    font-size: larger;
+}
+.card-img{
+    height: 200px;
+}
+.margin{
+    text-align: center;
+    width: 25%;
+    align-items: center;
+}
