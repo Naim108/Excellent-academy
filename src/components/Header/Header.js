@@ -12,7 +12,7 @@ const Header = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-3 ">
-            <h5 className=" fw-bold mt-3 align-items-start ">Excellence Academy</h5>
+            <h5 className="  fw-bold mt-3 align-items-start ">Excellence Academy</h5>
           </div>
           <div className="col-md-9 text-black">
             <div className="menu-container ">

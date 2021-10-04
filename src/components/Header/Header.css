@@ -2,18 +2,20 @@
     list-style: none;
     margin-right: 30px;
     font-size: 22px;
-    font-weight: 500;
+    font-weight: bold;
     color: black;
     cursor: pointer;
     padding: 5px;
     text-decoration: none;
   }
   .items:hover {
-    color: goldenrod;
+    color:rgb(231, 199, 18);
    
   }
   .Header-container{
     color: #309255;
     background-color: #e7f8ee;
+    
   }
+ 
  

@@ -6,11 +6,19 @@
     background-color: #309255;
     border: 2px solid #309255;
     color: white;
-    padding: 15px;
+    padding: 20px;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
 
+}
+.btn-course1{
+    background-color:#309255 ;
+    border: 2px solid #309255;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 16px;
 }
 .logo{
     width: 500px;

@@ -6,10 +6,7 @@ import Blog from './components/Blog/Blog';
 import About from './components/About/About';
 import NotFound from './components/NotFound/NotFound';
 import { BrowserRouter as Router,Switch,Route } from 'react-router-dom';
-import Footer from './components/Footer/Footer';
-import Banner from './components/Banner/Banner';
-import Details from './components/Details/Details';
-import Header from './components/Header/Header';
+
 
 function App() {
   return (

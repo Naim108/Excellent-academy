@@ -22,7 +22,7 @@ const Courses = () => {
     return (
         <div>
             <Header></Header>
-            <div className="container">
+            <div className="container mt-5">
             <h1 className="fw-bold">Our Popular Courses </h1>
            
         <div className="row">

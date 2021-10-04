@@ -19,7 +19,7 @@ const Footer = () => {
                 <h6>UI/UX Design</h6>
                 <h6>Business Analytics</h6>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 footer-link">
                 <h2 className="fw-bold">Quick Links</h2>
                 <a href="/"><h6 className="mt-3">Quick Links</h6></a>
                 <a href="/"><h6>Privacy Policy</h6></a>

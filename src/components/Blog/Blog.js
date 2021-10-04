@@ -18,9 +18,9 @@ const Blog = () => {
         <div>
             <Header></Header>
             <div className="container">
-            <h1 className="fw-bold text-primary">Blog Posts </h1>
+            <h1 className="fw-bold mt-5">Latest to our Blog Posts </h1>
            
-        <div className="row">
+        <div className="row mt-3">
             {
                 posts.map(post=><div className="col-md-4 g-3">
                     <Card className="card-container1">
@@ -28,8 +28,8 @@ const Blog = () => {
            <Card.Body>
            <Card.Text>
            <div>
-           <h5>Title: {post.title}</h5>
-           <p>{post.body} <button className="btn btn-primary">see more</button></p>
+           <h5 className="common-color">{post.title}</h5>
+           <p>{post.body} <button className="btn btn-course1 p-1">see more</button></p>
            
            </div>
           </Card.Text>
