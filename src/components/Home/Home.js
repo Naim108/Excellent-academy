@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import Banner from '../Banner/Banner';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
+import './Home.css'
 
 const Home = (props) => {
     const [courses,setCourses]=useState([])
