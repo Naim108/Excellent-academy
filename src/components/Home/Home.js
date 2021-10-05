@@ -10,7 +10,7 @@ import Header from '../Header/Header';
 const Home = (props) => {
     const [courses,setCourses]=useState([])
     useEffect(()=>{
-        fetch('./App2.json')
+        fetch('./App.json')
         .then(res=>res.json())
         .then(data=>setCourses(data))
 
@@ -27,7 +27,7 @@ const Home = (props) => {
 
         <div className="row mt-3">
             {
-                courses.map(course=><div className="col-md-4 g-3">
+                courses.slice(0,4).map(course=><div className="col-md-4 g-3">
                     <Card className="card-container">
            <Card.Body>
            <Card.Text>
