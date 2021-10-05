@@ -27,7 +27,7 @@ const Courses = () => {
            
         <div className="row">
             {
-                courses.map(course=><div className="col-md-4 g-4">
+                courses.map(course=><div className="col-md-4 g-2">
                     <Card className="card-container">
 
            <Card.Body>
